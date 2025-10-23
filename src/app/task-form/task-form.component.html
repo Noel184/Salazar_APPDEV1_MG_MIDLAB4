@@ -1,0 +1,10 @@
+<form (submit)="addTask(); $event.preventDefault()">
+  <input
+    type="text"
+    placeholder="Enter task..."
+    [(ngModel)]="description"
+    name="taskInput"
+    required
+  />
+  <button type="submit">Add Task</button>
+</form>

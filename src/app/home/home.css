@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70vh;
+  background-color: #253352; 
+  padding-left: 3rem;
+}
+
+.profile {
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: white; 
+  font-weight: bold
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #d1d5db; 
+  margin-top: 0.5rem;
+}

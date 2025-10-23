@@ -1,0 +1,20 @@
+<div *ngFor="let task of tasks" class="task-item">
+
+  <input type="checkbox" [checked]="task.isCompleted" (change)="toggleCompleted(task.id)" />
+
+  <span *ngIf="editingTaskId !== task.id"
+        (click)="startEditing(task)"
+        [class.completed]="task.isCompleted">
+    {{ task.description }}
+  </span>
+
+  <input *ngIf="editingTaskId === task.id"
+         type="text"
+         [(ngModel)]="editedDescription"
+         placeholder="Edit task description..."
+         (keyup.enter)="saveDescription(task.id)"
+         (blur)="saveDescription(task.id)"
+         autofocus />
+
+  <button (click)="deleteTask(task.id)">Delete</button>
+</div>

@@ -1,0 +1,31 @@
+.navigationBar {
+    padding: 18px;
+    background-color: black;
+    display: flex;  
+    align-items: center;
+    font-size: 20px;
+}
+
+.websiteName {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.links a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #cfcfc4;
+    margin-left: 25px;
+}
+
+.links a:active
+.links a:hover {
+    color: palevioletred;
+}
+
+hr {
+    border: none;
+    height: 0;
+}

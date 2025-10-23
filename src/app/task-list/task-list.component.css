@@ -1,0 +1,21 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+.task-item span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.task-item span.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-item input[type="text"] {
+  flex: 1;
+  padding: 5px;
+}

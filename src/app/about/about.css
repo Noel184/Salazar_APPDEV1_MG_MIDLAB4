@@ -1,0 +1,60 @@
+.about-me {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #253352; /* same tone as your header */
+  color: #f3f4f6;
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #d1d5db;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #31466e;
+  border: 1px solid #3e557d;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #191a1b; 
+}
+
+.card p, 
+.card li {
+  color: #e5e7eb;
+  line-height: 1.5;
+}
